@@ -6,6 +6,7 @@
 body {
   background-color: rgb(226, 226, 226);
   color: #fff;
+  width: 100%;
 }
 
 .navbar {
@@ -119,6 +120,9 @@ i:hover {
 }
 .hr {
   opacity: 0;
+}
+.container-table {
+  overflow-x: scroll;
 }
 
 /* cal sip css */
@@ -331,12 +335,18 @@ div .btn-center-wide {
 /* table */
 .table-heading {
   color: #343a40;
+  text-align: center;
+  width: 100%;
+  overflow-x: auto;
+  background-color: red;
 }
 .custom-table {
   border-collapse: separate;
   border-spacing: 0 10px;
   width: 100%;
+  height: auto;
   margin-bottom: 20px;
+  overflow-x: auto;
 }
 .custom-table th,
 .custom-table td {
@@ -345,6 +355,7 @@ div .btn-center-wide {
   vertical-align: middle;
   background-color: white;
   border: 1px solid #dee2e6;
+  white-space: nowrap;
 }
 .custom-table th {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -369,7 +380,7 @@ div .btn-center-wide {
 }
 /*  CSS for the FAQ */
 .faq-container {
-  width: 100%;
+  /* width: 100%; */
   margin: 0 auto;
   padding: 20px;
 }
