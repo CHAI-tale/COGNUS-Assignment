@@ -133,7 +133,9 @@ i:hover {
   overflow: hidden;
   background-color: white;
   background-color: transparent;
-  margin: 96px 40px;
+  /* margin: 96px 40px; */
+  margin: 5% 3%;
+  margin-top: 96px !important;
   margin-bottom: 0px;
   display: flex;
   flex-wrap: wrap;
