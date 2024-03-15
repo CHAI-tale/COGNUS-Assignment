@@ -381,14 +381,16 @@ div .btn-center-wide {
 .faq-container {
   /* width: 100%; */
   margin: 0 auto;
-  padding: 20px;
+  padding: 5%;
 }
 .faq-section {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* margin: 30px 30px; Margin/ */
-  padding: 30px 65px;
+  /* padding: 30px 65px; */
+  padding: 20px 10px;
+  padding-top: 30px;
   margin-bottom: 40px;
 }
 .faq-item {
